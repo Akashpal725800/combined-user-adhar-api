@@ -59,6 +59,5 @@ cd combined-user-adhar-api
 npm install
 npm start
 
-
-MONGO_URI=your_mongodb_connection_string
-PORT=5000
+PORT=8000
+MONGODB_URL=mongodb://localhost:27017/combined
