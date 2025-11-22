@@ -42,12 +42,9 @@ This project demonstrates real-world backend development with authentication, da
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
-| POST | `/user/create` | Create new user |
-| GET | `/user/all` | Get all users |
-| GET | `/user/:id` | Get user by ID |
-| PUT | `/user/update/:id` | Update user |
-| DELETE | `/user/delete/:id` | Delete user |
-| POST | `/aadhaar/verify` | Verify Aadhaar details |
+| POST | `/app/api/user` | Create new user |
+| POST | `/app/api/Adhar` | Add/verify Aadhaar details |
+
 
 ---
 
